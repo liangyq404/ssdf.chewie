@@ -5,6 +5,16 @@ body {
     font-weight: 200;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    /* font-weight: 400; */
+    color: #ff5722;
+}
+
 span {
     font-weight: 400;
     color: #ff5722;
@@ -13,9 +23,15 @@ span {
 
 h1 {
     font-family: Georgia;
-    font-size: 70px;
+    font-size: 90px;
     font-style: italic;
     color: #EC572A;
+}
+
+h2 {
+    font-family: Georgia;
+    font-size: 30px;
+    line-height: 140%;
 }
 
 p {
@@ -25,31 +41,34 @@ p {
     line-height: 27px;
 }
 
-.sidebar {
-    /* display: inline-block; */
-    float: left;
-    font-size: large;
-    width: 200px;
-    line-height: 60px;
-    text-align: right;
-}
-
 ul {
     list-style: none;
 }
 
+.sidebar {
+    position: fixed;
+    /* display: inline-block; */
+    float: left;
+    /* position: relative; */
+    font-size: large;
+    width: 15%;
+    line-height: 300%;
+    text-align: right;
+}
+
 .upper {
-    margin-top: 35%;
+    margin-top: 60px;
 }
 
 .lower {
-    margin-top: 205px;
+    margin-top: 250px;
 }
 
 .midPic {
     display: inline-block;
-    margin-top: 90px;
-    margin-left: 15%;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 30%;
     width: 400px;
     height: 595px;
     max-width: 100%;
@@ -59,18 +78,40 @@ ul {
 .headline {
     position: absolute;
     display: inline-block;
-    margin-top: 300px;
-    margin-left: 65px;
+    margin-top: 85px;
+    /* margin-left: 700px; */
 }
 
 .right {
-    float: right;
-    margin-right: 150px;
+    position: absolute;
+    display: inline-block;
+    /* float: left; */
+    margin-left: 4%;
+    margin-right: 100px;
     text-align: left;
-    margin-top: 70px;
+    margin-top: 60px;
+    width: 400px;
 }
 
 .bottomText {
+    position: absolute;
     width: 400px;
-    margin-top: 440px;
+    margin-top: 107%;
+    /* margin-top: 350px; */
+}
+
+.topimg {
+    position: absolute;
+    width: 60%;
+    height: 110px;
+    background-color: #eceff1;
+    margin-top: 75px;
+    margin-left: 30%;
+}
+
+.story {
+    position: absolute;
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 30%;
 }
