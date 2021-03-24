@@ -1,9 +1,76 @@
-body{
+body {
     margin: 0 auto;
     padding: 0 auto;
-    font-family: 'Karla', sans-serif, 200;
+    font-family: 'Karla';
+    font-weight: 200;
 }
 
-h1{
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
+span {
+    font-weight: 400;
+    color: #ff5722;
+    font-style: italic;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 70px;
+    font-style: italic;
+    color: #EC572A;
+}
+
+p {
+    font-family: 'Karla';
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.sidebar {
+    /* display: inline-block; */
+    float: left;
+    font-size: large;
+    width: 200px;
+    line-height: 60px;
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+}
+
+.upper {
+    margin-top: 35%;
+}
+
+.lower {
+    margin-top: 205px;
+}
+
+.midPic {
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 15%;
+    width: 400px;
+    height: 595px;
+    max-width: 100%;
+    background-color: #eceff1;
+}
+
+.headline {
+    position: absolute;
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 65px;
+}
+
+.right {
+    float: right;
+    margin-right: 150px;
+    text-align: left;
+    margin-top: 70px;
+}
+
+.bottomText {
+    width: 400px;
+    margin-top: 440px;
 }
