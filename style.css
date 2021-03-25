@@ -7,7 +7,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 a:hover {
@@ -30,8 +30,8 @@ h1 {
 
 h2 {
     font-family: Georgia;
-    font-size: 30px;
-    line-height: 140%;
+    font-size: 25px;
+    /* padding-bottompx; */
 }
 
 p {
@@ -39,10 +39,16 @@ p {
     font-weight: 200;
     font-size: 17px;
     line-height: 27px;
+    /* margin-bottom: 15px; */
 }
 
 ul {
     list-style: none;
+}
+
+.caption {
+    font-size: 12px;
+    color: grey;
 }
 
 .sidebar {
@@ -68,7 +74,7 @@ ul {
     display: inline-block;
     position: relative;
     margin-top: 80px;
-    margin-left: 30%;
+    margin-left: 25%;
     width: 400px;
     height: 595px;
     max-width: 100%;
@@ -101,17 +107,60 @@ ul {
 }
 
 .topimg {
+    display: inline-block;
+    position: fixed;
+    width: 400px;
+    /* height: 250px; */
+    /* background-color: #eceff1; */
+    margin-top: 75px;
+    margin-left: 25%;
+    margin-bottom: 100px;
+}
+
+.topimg img {
+    width: 400px;
+    /* height: 70%; */
+}
+
+.text {
     position: absolute;
     width: 60%;
-    height: 110px;
-    background-color: #eceff1;
-    margin-top: 75px;
+    margin-top: 200px;
     margin-left: 30%;
 }
 
 .story {
     position: absolute;
+    display: inline-block;
+    width: 485px;
+    margin-top: 50px;
+    margin-left: 57%;
+}
+
+.mouthfeel {
+    font-style: italic;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.dic {
+    margin-top: 160px;
+}
+
+.noun {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+}
+
+.topimg .caption {
+    margin-top: 10px;
+}
+
+.faq {
+    position: absolute;
     width: 60%;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-left: 30%;
 }
