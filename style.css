@@ -170,11 +170,14 @@ ul {
     width: 65%;
     margin-top: 50px;
     margin-left: 25%;
+    /* overflow: hidden; */
 }
 
 .labtext img {
-    margin-top: 30px;
+    object-fit: cover;
     width: 900px;
-    height: 400px;
+    height: 200px;
+    object-position: 10% 90%;
+    margin-top: 30px;
     background-color: lightcyan;
 }
