@@ -67,7 +67,7 @@ ul {
 }
 
 .lower {
-    margin-top: 250px;
+    margin-top: 205px;
 }
 
 .midPic {
@@ -163,4 +163,18 @@ ul {
     width: 60%;
     margin-top: 50px;
     margin-left: 30%;
+}
+
+.labtext {
+    position: absolute;
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+
+.labtext img {
+    margin-top: 30px;
+    width: 900px;
+    height: 400px;
+    background-color: lightcyan;
 }
